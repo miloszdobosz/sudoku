@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Arrays;
 
-import static org.example.SudokuMapOld.SQUARE_SIZE;
+import static org.example.SudokuMap.SQUARE_SIZE;
 
 public class SudokuMapGuard {
     public final boolean[][] clashes;

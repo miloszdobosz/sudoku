@@ -3,7 +3,7 @@ package org.example;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-import static org.example.SudokuMapOld.SIZE;
+import static org.example.SudokuMap.SIZE;
 
 public class Main {
     public static void main(String[] args) {

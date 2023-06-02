@@ -12,6 +12,7 @@ public class SudokuMapView {
     public SudokuMapView(int[][] fields, boolean[][] okMask, boolean[][] errorMask) {
         this(fields, okMask, errorMask, SQUARE_SIZE);
     }
+
     public SudokuMapView(int[][] fields, boolean[][] okMask, boolean[][] errorMask, int squareSize) {
         this.fields = fields;
         this.okMask = okMask;
